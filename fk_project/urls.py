@@ -1,5 +1,5 @@
 from django.conf.urls import patterns, include, url
-
+# sample for testing git poller
 from django.contrib import admin
 admin.autodiscover()
 
