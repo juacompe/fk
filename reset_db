@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 cd `dirname $0`
-rm -f fk.sqlite3
+rm fk.sqlite3
 python manage.py syncdb $*
 
